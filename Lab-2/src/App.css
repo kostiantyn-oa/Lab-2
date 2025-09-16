@@ -9,18 +9,19 @@
 }
 
 .profile-card {
-  border: 1px solid #ccc;
+  border: 2px solid #7225bf;
   border-radius: 8px;
   padding: 16px;
   margin: 16px;
   width: 200px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(135, 62, 231, 0.3);
 }
 
 .profile-card img {
   width: 100px;
   height: 100px;
+  object-fit: cover;
   border-radius: 50%;
 }
 
@@ -29,5 +30,5 @@
 }
 
 .profile-card p {
-  color: #666;
+  color: #7e36c2;
 }
